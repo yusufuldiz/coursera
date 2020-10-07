@@ -1,0 +1,54 @@
+#navbar1 {
+    background-color: rgb(41, 114, 182);
+}
+
+#button1:hover {
+    background-color: orangered;
+}
+
+#navlink {
+    color: rgb(238, 255, 2);
+    font-size: 16px;
+}
+@media (max-width: 991px) {
+.navbar-collapse {
+    background-color: rgb(19, 71, 119);
+}
+.navbar {
+    padding: 0;
+}
+
+button {
+    margin-right: 10px;
+}
+
+dl, ol, ul {
+    margin: 4px 10px;
+}
+}
+
+#coldiv {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#indiv {
+    background-color: rgb(103, 220, 255);
+    margin: 10px 5px;
+    padding: 10px;
+    height: 100%;
+}
+
+.row {
+    padding: 10px 25px;
+}
+
+#pageheader {
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+}
+
+.navbar-brand {
+    margin-left: 15px;
+}
