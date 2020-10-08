@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 #navbar1 {
     background-color: rgb(41, 114, 182);
 }
