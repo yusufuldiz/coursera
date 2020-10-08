@@ -56,3 +56,13 @@ dl, ol, ul {
 .navbar-brand {
     margin-left: 15px;
 }
+
+#brandhead {
+    font-size: 24px;
+    text-decoration: none;
+    color: white; 
+    position: relative;
+    top: 4px;
+    left: 2px;
+    font-family: 'Righteous', cursive;
+}
