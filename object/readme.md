@@ -28,3 +28,18 @@ let başkaBirObje = {
 console.log(obje == başkaBirObje);         //false
 ```
 Bu örnekte görüldüğü gibi, aynı primitive değerlere sahip olan “mesaj” ve “başkaBirMesaj” isimli değişkenler eşit kabul ediliyor. Fakat “obje” ve “başkaBirObje” isimli objeler de bire bir aynı değerleri barındırmalarına rağmen eşit kabul edilmiyorlar. Çünkü bu iki obje, arka planda göremediğimiz iki ayrı hafıza adresiyle tanınıyorlar, bu yüzden içerikleri aynı olsa da farklı kabul ediliyorlar. 
+
+Obje oluşturmak<br>
+Objeler üç şekilde oluşturulabilir. Object literal, new Object keyword’ü ve Object.create() foksiyonuyla. Object literal ve new Object yöntemleri, normal bir objeyi oluştururken kullanılan yöntemlerdir. Object.create() yöntemi ise, mevcut bir objeden kalıtım yoluyla bazı bilgiler alarak yeni bir obje oluşturmaya yarar. Aşağıdaki ilk örnekte, object literal ve new object yöntemleriyle birer obje oluşturalım;
+```javascript
+let countriesTalkSpanish = {
+location: "south america",
+language: "spanish"
+};
+ 
+let countriesTalkEnglish = new Object();
+countriesTalkEnglish.location = "australia";
+countriesTalkEnglish.language = "english"; 
+
+```
+
