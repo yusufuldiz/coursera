@@ -47,5 +47,5 @@ Object literal yöntemiyle güney amerikada bulunup ispanyolca dilini konuşan �
 let argentina = Object.create(countriesTalkSpanish);
 argentina.capital = "buenos aires";
 ```
-Object.create yöntemiyle argentina adında yeni bir obje oluşturduk. Bu obje, az önce oluşturduğumuz countriesTalkSpanish objesinin özelliklerini kalıtım yoluyla almış oldu. Objemizi yazdırdığımızda, sonradan eklediğimiz capital:"buenos aires" propertysinin yanı sıra, language:spanish ve location:south america propertylerine de kalıtım yoluyla sahip oldu.
+Object.create yöntemiyle argentina adında yeni bir obje oluşturduk. Bu obje, az önce oluşturduğumuz countriesTalkSpanish objesinin özelliklerini kalıtım yoluyla almış oldu. Objemizi yazdırdığımızda, sonradan eklediğimiz capital:"buenos aires" propertysinin yanı sıra, language:spanish ve location:south america propertylerine de kalıtım yoluyla sahip olduğunu görürüz.
 
