@@ -13,9 +13,12 @@ let Artist = {
 ```
 Objeler değiştirilebilen veri tiplerindendir. İçerdiği propertyler, obje’nin kendisi const değeriyle atanmış olsa bile değiştirilebilirler. Fakat primitive değerlerden farklı olarak objeler, referans yoluyla değiştirilirler ve değişen obje, yeni bir hafıza adresine sahip olur. Çünkü primitive değerlerin aksine objeler, javascript istemcisinin belleğinde, sahip oldukları değerlerle değil, sistemin atadığı hafıza adresleriyle kayıtlıdırlar. Bunun ayrımını aşağıdaki örnekte şöyle görebiliriz.
 ```javascript
+//aynı değerlere sahip 2 primitive veri tipi
 let mesaj = "merhaba";
 let başkaBirMesaj = "merhaba";
 console.log(mesaj == başkaBirMesaj);       //true
+
+//aynı değerlere, farklı memory adresslere sahip 2 obje
 let obje = {
  mesaj:"merhaba"
 }
