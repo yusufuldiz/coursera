@@ -42,4 +42,10 @@ countriesTalkEnglish.location = "australia";
 countriesTalkEnglish.language = "english"; 
 
 ```
+Object literal yöntemiyle güney amerikada bulunup ispanyolca dilini konuşan ülkelerin genelini kapsayacak bir obje örneği oluşturduk. Tıpkı bunun gibi, avustralya kıtasında bulunan ve ingilizce konuşulan ülkeler için de new Object keywordünü kullanarak bir obje örneği oluşturduk. Şimdi, Object.create yöntemiyle, spesifik bir güney amerika ülkesi oluşturalım;
+```javascript
+let argentina = Object.create(countriesTalkSpanish);
+argentina.capital = "buenos aires";
+```
+Object.create yöntemiyle argentina adında yeni bir obje oluşturduk. Bu obje, az önce oluşturduğumuz countriesTalkSpanish objesinin özelliklerini kalıtım yoluyla almış oldu. Objemizi yazdırdığımızda, sonradan eklediğimiz capital:"buenos aires" propertysinin yanı sıra, language:spanish ve location:south america propertylerine de kalıtım yoluyla sahip oldu.
 
