@@ -3,9 +3,9 @@ Javascript’in en temel veri tipi kabul edilen objeler, son derece önemlidir v
 ### Objenin basit tanımı
 Objeler, içerisinde birden fazla değeri depolayan yapılardır. Property olarak bilinen bu değerler primitive(String,number, boolean vb.) veya başka objeler olabilirler ve her bir değer string veya sembol ile isimlendirilebilir.  
 ```javascript
-let Artist = {
- name:"Zoé",
- album:{
+let artist = {                                  //artist isimli objemiz
+ name:"Zoé",                                    //name isimli, "Zoé" primitive değerine sahip property
+ album:{                                        //album isimli, içerisinde başka bir objeye yer veren property
   title:"Reptilectric",
   year:2008
  },
