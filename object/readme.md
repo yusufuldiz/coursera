@@ -71,3 +71,7 @@ Argentina isimli obje örneği ise daha önce oluşturduğumuz countriesTalkSpan
 argentina.capital = “buenos aires”;
 ```
 objeye, ülkenin başkentini belirten yeni bir property atadık. Artık elimizde başkentini, konuşulan dili ve hangi kıtada yer aldığını bildiğimiz bir ülke var.
+
+
+Yararlandığım kaynak: David Flanagan – Javascript: The Definition Guide
+https://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527
