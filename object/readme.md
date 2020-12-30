@@ -33,7 +33,7 @@ Bu örnekte görüldüğü gibi, aynı primitive değerlere sahip olan “mesaj�
 Objeler üç şekilde oluşturulabilir. Object literal, new Object keyword’ü ve Object.create() foksiyonuyla. Object literal ve new Object yöntemleri, normal bir objeyi oluştururken kullanılan yöntemlerdir. Object.create() yöntemi ise, mevcut bir objeden kalıtım yoluyla bazı bilgiler alarak yeni bir obje oluşturmaya yarar. 
 
 #### Object Literals
-Javascript’te obje oluşturmanın en kolay yolu olarak bilinir. Süslü parantez {} kullanılarak oluşturulan objenin içerdiği propertylerin değerleri iki nokta : işaretiyle belirtilir. Propertyler birbirlerinden virgül , ile ayrılır. Örnek vermek gerekirse:
+Javascript’te obje oluşturmanın en kolay yolu olarak bilinir. Süslü parantez `{}` kullanılarak oluşturulan objenin içerdiği propertylerin değerleri iki nokta `:` işaretiyle belirtilir. Propertyler birbirlerinden virgül `,` ile ayrılır. Örnek vermek gerekirse:
 ```Javascript
 let countriesTalkSpanish = {
 continent: "south america",
