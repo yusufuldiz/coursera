@@ -72,7 +72,7 @@ argentina.capital = “buenos aires”;
 ```
 objeye, ülkenin başkentini belirten yeni bir property atadık. Artık elimizde başkentini, konuşulan dili ve hangi kıtada yer aldığını bildiğimiz bir ülke var.
 
-####Alıştırma
+#### Alıştırma
 
 Object.create() yöntemini kullanarak bir alt obje oluşturalım;
 
