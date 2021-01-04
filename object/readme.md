@@ -72,6 +72,20 @@ argentina.capital = “buenos aires”;
 ```
 objeye, ülkenin başkentini belirten yeni bir property atadık. Artık elimizde başkentini, konuşulan dili ve hangi kıtada yer aldığını bildiğimiz bir ülke var.
 
+####Alıştırma
+
+Object.create() yöntemini kullanarak bir alt obje oluşturalım;
+
+https://codepen.io/yusufuldiz/pen/VwKXRQO
+
+
+Çözümü için;
+
+https://codepen.io/yusufuldiz/pen/ExgEMpd
+
+
+
+
 
 Yararlandığım kaynak: David Flanagan – Javascript: The Definition Guide<br>
 https://www.amazon.com/JavaScript-Definitive-Guide-Activate-Guides/dp/0596805527
